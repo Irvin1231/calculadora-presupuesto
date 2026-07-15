@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+
+</head>
+<body>
+    <section id="encabezado">
+        <p>Calculadora de Presupuesto Anual</p>
+        <img src="img/SAI.jpeg">
+    </section>
+    <section id="presu">
+
+        <div class="campoPresu">
+
+            <label for="presupuestoAnterior">Presupuesto Anual Pasado:</label>
+            <br>
+            <input type="number" id="presupuestoAnterior" name="presupuestoAnterior" placeholder="Escribe el presupuesto del año Anterior">
+            <p id="errorPresupuestoPasado"></p>
+        </div>
+
+        <div class="campoPresu">
+
+            <label for="topePresupuesto">Tope de Presupuesto Anual:</label>
+            <br>
+            <input type="number" id="topePresupuesto" name="topePresupuesto" placeholder="Tope de Presupuesto">  
+            <p id="errorTopePresupuesto"></p> 
+            
+        </div>
+        <div class="campoPresu">
+            <button onclick="guardarPresupuesto()">Guardar Presupuesto</button> 
+        </div>  
+
+    </section>
+    <section id="calculadora">
+        <div class="contenedor-cal">
+             <h1>Agregar Servicio</h1>
+             <!--ID de Servicio-->
+            <label for="servicio">Agregar Servicio</label>
+            <input type="text" id="servicio" name="servicio" placeholder="Escribe el servicio aqui"><br>
+            <p id="errorServicio"></p>
+            <!--ID de Costo-->
+            <label for="costo">Agregar Costo</label>
+            <input type="number" id="costo" name="costo" placeholder="Escribe el costo aqui"><br>
+            <p id="errorCosto"></p>
+            <!--Menu dezplegable-->
+            <label for="periodicidad">Periodicidad</label><br>
+            <select id="periodicidad">
+                <!--ID de Mensual-->
+                <option value="mensual">Mensual</option>
+                <!--ID de Anual-->
+                <option value="anual">Anual</option>
+            </select>
+            <br>    
+            <button onclick="agregarServicio()">Agregar Servicio</button>
+                                                                                                                                                    
+        </div>
+        <div class="contenedor-cal">
+           <h1 >Servicio</h1>
+           <table >
+                <!--encabezado-->
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Costo</th>
+                        <th>Periodo</th>
+                        <th>Costo Anual</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <!--Columnas-->
+                <tbody id="tablaServicios">
+                    
+                       
+                        
+                            
+                </tbody>
+           </table>
+
+        </div>
+    </section>
+    <section id="fin">
+        <div id="resumen">
+             <h1>Resumen de Financiero</h1>
+            <h3>Total Mensual: <span id="totalMensual"> $0.00</span></h3>
+            <h3>Total Anual: <span id="totalAnual"> $0.00</span></h3>
+            <h3>Comparativas de presupuestos:  <span id="variacion">$0.00</span> </h3>
+            <h3>Disponible: <span id="disponible">$0.00</span></h3>
+            <h3>Presupuesto Tope: <span id="guardarPresupuesto">$0.00</span></h3>
+            <h3>Presupuesto Anterior: <span id="GuardarPresupuestoAnterior">$0.00</span></h3>
+
+        </div>
+        <div id="graficas">
+                <canvas id="graficaPresupuesto"></canvas>
+
+        </div>
+       
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
