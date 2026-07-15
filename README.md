@@ -5,7 +5,7 @@ Esta herramienta permite registrar todos los servicios, calcular los costos peri
 
 # 🎯 Objetivo 
 
-El objetivo de este proyecto es proporcionar una herramienta sencilla e intuitiva que permita planificar presupuestos de manera rápida y organizada, reduciendo errores de cálculo y facilitando la toma de decisiones financieras.
+El objetivo de este proyecto es proporcionar una herramienta sencilla e intuitiva que permita planificar presupuestos de manera rápida y organizada, reduciendo errores de cálculo y facilitanhttps://open.spotify.com/playlist/37i9dQZF1EYkqdzj48dyYqdo la toma de decisiones financieras.
 
 # 📌 Características principales
 * Registro de presupuesto anual.
@@ -52,3 +52,72 @@ Cada vez que se registra un nuevo concepto, la aplicación realiza automáticame
 - Refresca toda la información mostrada en pantalla de manera inmediata.
 
 De esta forma, el usuario puede visualizar el comportamiento del presupuesto conforme va agregando nuevos gastos y conocer si aún dispone de recursos o si ha excedido el límite establecido.
+
+# 💼 Casos de uso
+La calculadora puede emplearse para controlar presupuestos relacionados con:
+
+- Servicios.
+- Proveedores.
+- Licencias de software.
+- Suscripciones.
+- Equipamiento.
+- Mantenimiento.
+- Infraestructura.
+- Capacitación.
+- Publicidad.
+- Gastos operativos.
+- Cualquier otro concepto presupuestal.
+
+# 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript 
+
+# 📂 Estructura del proyecto
+
+calculadora-presupuesto/
+│
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+└── assets/
+    └── img/
+        └── calculadora.png
+
+# 🚀 Próximas versiones
+
+# Versión 1.1
+
+- Corrección de errores.
+- Mejoras visuales.
+- Implementación de gráficas estadísticas.
+
+# Versión 1.2
+
+- Almacenamiento de presupuestos.
+- Exportación de presupuestos en formato PDF.
+- Filtros y búsquedas.
+- Edición de conceptos registrados.
+
+---
+
+# 👨‍💻 Autor
+
+## Irvin Efren Castro Moreno
+
+Ingeniero en Tecnologías de la Información y Comunicaciones.
+
+Apasionado por el desarrollo de soluciones web, la automatización de procesos y la gestión de infraestructura tecnológica.
+
+Este proyecto forma parte de mi portafolio profesional y tiene como objetivo demostrar mis habilidades en el desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript, enfocadas en optimizar procesos administrativos y mejorar la gestión presupuestal de cualquier organización.
+
+---
+
+# 📄 Licencia
+
+Este proyecto está distribuido bajo la licencia **MIT**. Consulta el archivo `LICENSE` para obtener más información.
