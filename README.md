@@ -91,13 +91,13 @@ calculadora-presupuesto/
 
 # 🚀 Próximas versiones
 
-# Versión 1.1
+## Versión 1.1
 
 - Corrección de errores.
 - Mejoras visuales.
 - Implementación de gráficas estadísticas.
 
-# Versión 1.2
+## Versión 1.2
 
 - Almacenamiento de presupuestos.
 - Exportación de presupuestos en formato PDF.
